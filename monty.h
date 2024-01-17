@@ -51,7 +51,7 @@ typedef struct bus_s
 	FILE *file;
 	char *content;
 	int lifi;
-} bus_t bus;
+} bus_t;
 
 char *_realloc(char *ptr, unsigned int old_size, unsigned int new_size);
 ssize_t getstdin(char **lineptr, int file);
