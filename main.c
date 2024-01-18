@@ -1,7 +1,5 @@
 #include "monty.h"
 
-bus_t bus;
-
 /**
  * main - monty code interpreter.
  * @argc: number of args
@@ -16,6 +14,7 @@ int main(int argc, char *argv[])
 	ssize_t read_line = 1;
 	stack_t *stack = NULL;
 	unsigned int counter = 0;
+	bus_t bus;
 
 	if (argc != 2)
 	{
